@@ -6,7 +6,7 @@
 
 ### 🚀 Turning Ideas Into Working Products
 
-<img src="https://komarev.com/ghpvc/?username=NinadPandith&label=Profile%20Views&color=00F7FF&style=flat" alt="Profile Views" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=AI+%26+Machine+Learning+Enthusiast;Full-Stack+Developer;Backend+%26+API+Developer;Cybersecurity+Explorer;Building+Real-World+Technology" alt="Typing SVG" />
 
 </div>
 
