@@ -145,102 +145,134 @@ I learn by building — experimenting with new technologies, solving problems, d
 
 # 🚀 Featured Projects
 
-## 📈 PROSTOCKER
+## 🤖 CodeSentinel — Autonomous AI DevOps Agent
 
-### AI-Powered Indian Stock Market Analysis Platform
+### Self-Healing AI Agent for Failing Tests
 
-An AI-powered platform designed to analyze Indian stock market data, generate insights, and present financial information through an interactive application.
+An autonomous AI agent that finds failing tests, diagnoses the root cause, patches the code, and verifies its own fix by re-running the full test suite, with every step of its reasoning streamed live. Fixed 91% of an 11-bug benchmark, beating a single-shot LLM baseline on the hardest bugs.
 
 ### 🔹 Core Areas
 
-- 📊 Market data analysis
-- 🤖 Machine Learning
-- 📈 Financial insights
-- 🧠 Predictive analysis
-- 🌐 Interactive dashboard
+- 🔁 Plan → Act → Observe → Reflect → Retry agent loop
+- ✅ Self-verification with automatic rollback
+- 🎯 Fault localization
+- 📡 Live reasoning trace over WebSockets
+- 🧪 Evaluation harness & seeded bug benchmark
 
 ### 🔹 Tech Stack
 
-`Python` `Machine Learning` `React` `FastAPI` `Data Analysis`
+`Python` `FastAPI` `WebSockets` `React` `Tailwind CSS` `SQLite` `Gemini` `Claude API` `pytest`
 
-🔗 [View Repository →](https://github.com/NinadPandith/PROSTOCKER)
+🔗 [View Repository →](https://github.com/NinadPandith/Autonomous-AI-DevOps-Agent) • 🌐 [Live Demo →](https://autonomous-ai-dev-ops-agent.vercel.app)
+
+---
+
+## 🛡️ MIRAGE — AI Privacy Firewall (Browser Extension)
+
+### Protects Personal Data Before It Reaches ChatGPT & Gemini
+
+A Chrome extension that hides personal details like Aadhaar, PAN, phone numbers and UPI IDs behind placeholders before a prompt is sent, blocks secrets like API keys and passwords, and puts the real details back into the AI's reply, all on your device. Built for the AWS Innovation Challenge 2026.
+
+### 🔹 Core Areas
+
+- 🔒 On-device PII detection & masking
+- 🚫 Secret blocking (API keys, passwords, card numbers)
+- 🔁 Restoring real details in AI replies
+- 🔐 AES-GCM encrypted local storage
+- ☁️ Optional name detection with Amazon Comprehend
+
+### 🔹 Tech Stack
+
+`TypeScript` `React` `WXT` `Chrome Extension` `Vitest` `AWS Lambda` `Amazon Comprehend`
+
+🔗 [View Repository →](https://github.com/NinadPandith/Mirage-BrowserExtension)
+
+---
+
+## 💻 MIRAGE CLI
+
+### Privacy Layer for AI Coding Tools in the Terminal
+
+The command-line version of MIRAGE. It masks personal details and stops secrets before text reaches AI tools like Claude Code and Codex, restores the real details in the answer, scans folders for sensitive data, and blocks Git commits that contain secrets. Works fully offline on Windows, macOS and Linux.
+
+### 🔹 Core Areas
+
+- 🖥️ AI chat wrapper for Claude Code & Codex
+- 🔍 Folder scanning for PII & secrets
+- 🪝 Git pre-commit secret hook
+- 📋 Clipboard mode for AI websites
+- 🔐 Encrypted local placeholder maps
+
+### 🔹 Tech Stack
+
+`TypeScript` `Node.js` `Commander` `tsup` `Vitest`
+
+🔗 [View Repository →](https://github.com/NinadPandith/Mirage-Cli)
+
+---
+
+## 📷 CamSense
+
+### Hidden Camera Detector for Android
+
+An Android app that checks hotel rooms, rentals and changing rooms for hidden cameras using only the phone's own sensors. Six detection modules (lens glint, infrared, Wi-Fi, Bluetooth, magnetometer and on-device AI) combine into one Low / Medium / High risk score, with a plain-English reason for every alert. Everything runs on the device.
+
+### 🔹 Core Areas
+
+- 🔦 Lens glint detection with computer vision
+- 📡 Wi-Fi & Bluetooth camera discovery
+- 🤖 On-device object detection (YOLO)
+- 🧲 Magnetometer & infrared checks
+- 📄 Evidence & PDF report generation
+
+### 🔹 Tech Stack
+
+`Kotlin` `Jetpack Compose` `CameraX` `OpenCV` `TensorFlow Lite` `YOLO` `Room` `Python`
+
+🔗 [View Repository →](https://github.com/NinadPandith/CamSense)
+
+---
+
+## 🏛️ Tech Sahaya
+
+### AI-Assisted Digital Citizen Welfare Platform
+
+A multilingual platform that helps citizens discover government schemes, check eligibility with deterministic rules, prepare documents, and track their benefit journey, with an "Ask Sahaya" RAG assistant and voice support. Includes role-based access for citizens, CSC operators and admins.
+
+### 🔹 Core Areas
+
+- 🏛️ Government scheme discovery
+- ✅ Rule-based eligibility engine
+- 💬 RAG assistant with multilingual voice
+- 🔐 Role-based access control & audit logging
+- 📄 Secure document handling & privacy controls
+
+### 🔹 Tech Stack
+
+`React` `TypeScript` `Vite` `Tailwind CSS` `FastAPI` `SQLAlchemy` `FAISS` `Supabase` `Docker`
+
+🔗 [View Repository →](https://github.com/NinadPandith/Tech_Sahaya)
 
 ---
 
 ## ✈️ Airway Route Deviation Prediction System
 
-A machine learning-based aviation system designed to analyze flight routes, detect route deviations, and estimate potential flight risks using aviation and environmental data.
+A machine learning-based aviation system that tracks live aircraft, detects route deviations, and predicts deviation risk using flight and weather data, with a live map, weather-aware route planning and a simulation mode.
 
 ### 🔹 Core Areas
 
-- ✈️ Flight tracking
+- ✈️ Live flight tracking
 - 🗺️ Route visualization
 - 📍 Route deviation detection
-- 🤖 Machine Learning
+- 🤖 Machine Learning risk prediction
 - 🌦️ Weather integration
-- 📊 Risk analysis
+- 🐳 Docker & Kubernetes deployment
 
 ### 🔹 Tech Stack
 
-`Python` `FastAPI` `React` `SQLite` `Scikit-learn` `OpenSky API`
+`Python` `FastAPI` `React` `Leaflet` `SQLite` `Scikit-learn` `XGBoost` `OpenSky API`
 
-🔗 [View Repository →](https://github.com/NinadPandith/ML-INTERN)
-
----
-
-## 🔐 SafeNet AI
-
-### AI-Powered Cybersecurity Platform
-
-A cybersecurity-focused application designed around detecting phishing emails, analyzing potentially malicious URLs, evaluating password security, and identifying potential cyber risks.
-
-### 🔹 Core Areas
-
-- 🛡️ Phishing detection
-- 🔗 Malicious URL analysis
-- 🔑 Password security
-- 🤖 AI-assisted security analysis
-- 🌐 Web-based security tools
-
-### 🔹 Tech Stack
-
-`JavaScript` `AI` `Web Development` `Cybersecurity`
-
-🔗 [View Repository →](https://github.com/NinadPandith/Safenet-AI-Reva-Project-)
-
----
-
-## 📰 Fake News Detection ML
-
-### NLP-Based Fake News Classification
-
-A Machine Learning application that uses Natural Language Processing techniques to analyze and classify news content.
-
-### 🔹 Core Areas
-
-- 🧠 Natural Language Processing
-- 📝 Text preprocessing
-- 🔤 TF-IDF
-- 🤖 Classification
-- 📊 Model evaluation
-
-### 🔹 Tech Stack
-
-`Python` `NLP` `Scikit-learn` `Machine Learning`
-
-🔗 [View Repository →](https://github.com/NinadPandith/Fake-news-detection-ml)
-
----
-
-## 🧩 ML Hackathon Project
-
-A Machine Learning project developed as part of a hackathon, focused on applying ML techniques to solve a real-world problem.
-
-### 🔹 Tech Stack
-
-`Python` `Machine Learning` `Data Analysis`
-
-🔗 [View Repository →](https://github.com/NinadPandith/Tech_Sahaya)
+🔗 [View Repository →](https://github.com/NinadPandith/ML_INTERNSHIP)
 
 ---
 
