@@ -272,7 +272,7 @@ A machine learning-based aviation system that tracks live aircraft, detects rout
 
 `Python` `FastAPI` `React` `Leaflet` `SQLite` `Scikit-learn` `XGBoost` `OpenSky API`
 
-🔗 [View Repository →](https://github.com/NinadPandith/ML_INTERNSHIP)
+🔗 [View Repository →](https://github.com/NinadPandith/Airway-Route-Deviation-Prediction)
 
 ---
 
